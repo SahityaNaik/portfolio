@@ -13,7 +13,7 @@ const Work = () => {
      setSelectedProject(null);
   }
   return (
-    <section id='work' className='py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative'>
+    <section id='work' className='py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[17vw] font-sans relative'>
       {/* Section Title */}
       <div className='text-center mb-16'>
         <h2 className='text-4xl font-bold text-white'>
@@ -53,7 +53,7 @@ const Work = () => {
       {/* Modal Container */}
       {selectedProject && (
         <div className='fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4'>
-          <div className='bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative'>
+          <div className='bg-gray-900 rounded-xl shadow-2xl w-[90%] max-w-2xl overflow-hidden relative'>
           <div className='flex justify-end p-4'>
             <button onClick={handleCloseModal} className='text-white text-3xl font-bold hover:text-purple-500'>
               &times;

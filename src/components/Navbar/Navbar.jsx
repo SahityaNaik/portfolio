@@ -32,7 +32,7 @@ const Navbar = () => {
         {id: "about", label: "About"},
         {id: "skills", label: "Skills"},
         {id: "experience", label: "Experience"},
-        {id: "work", label: "Work"},
+        {id: "work", label: "Projects"},
         {id: "education", label: "Education"},
     ]
   return (
@@ -40,7 +40,7 @@ const Navbar = () => {
         <div className='text-white py-5 flex justify-between items-center'>
 
             {/* Logo */}
-            <div className='text-lg font-semibold cursor-pointer'>
+            <div className='text-lg font-semibold cursor-pointer'  onClick={() => handleMenuItemClick("about")}>
             <span className='text-[#8245ec]'>&lt;</span>
             <span className='text-white'>Sahitya</span>
             <span className='text-[#8245ec]'>/</span>
