@@ -78,9 +78,50 @@ const Work = () => {
               ))}
             </div>
             <div className='flex gap-4'>
-              <a href={selectedProject.github} target='_blank' rel='noopener noreferrer' className='w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center'>View Code</a>
-              <a href={selectedProject.webapp} target='_blank' rel='noopener noreferrer' className='w-1/2 bg-purple-600 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center'>View Live</a>
-            </div>
+            {selectedProject.github && selectedProject.webapp ? (
+              <>
+                <a
+                  href={selectedProject.github}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center'
+                >
+                  View Code
+                </a>
+                <a
+                  href={selectedProject.webapp}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='w-1/2 bg-purple-600 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center'
+                >
+                  View Live
+                </a>
+              </>
+            ) : (                          // If only one button, then it takes full width
+              <>
+                {selectedProject.github && (
+                  <a
+                    href={selectedProject.github}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='w-full bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center'
+                  >
+                    View Code
+                  </a>
+                )}
+                {selectedProject.webapp && (
+                  <a
+                    href={selectedProject.webapp}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='w-full bg-purple-600 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center'
+                  >
+                    View Live
+                  </a>
+                )}
+              </>
+            )}
+          </div>
           </div>
           </div>
           </div>

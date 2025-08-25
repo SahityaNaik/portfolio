@@ -1,7 +1,7 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import Tilt from 'react-parallax-tilt'
-import profileImage from '../../assets/profile2.png'
+import profileImage from '../../assets/profile.png'
 
 const About = () => {
   return (
@@ -23,8 +23,6 @@ const About = () => {
         <Typewriter
           words={[
             'Fullstack Developer',
-            'App Developer',
-            'UI/UX Designer',
             'Coder',
           ]}
           loop={true}
@@ -37,7 +35,7 @@ const About = () => {
       </h3>
       {/* About me paragraph */}
       <p className='text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed'>
-        I am a full-stack developer, skilled in both front-end and back-end development, I specialize in the MERN stack and other modern technologies to create seamless user experiences and efficient solutions.
+        I am a Full-Stack Developer skilled in both front-end and back-end development. I specialize in the MERN stack and modern technologies to build seamless user experiences and efficient solutions. I enjoy learning new tools and solving challenges that help me grow as a developer.
         </p>
       {/* Resume Button */}
       <a href="https://drive.google.com/file/d/1ERRL6PeUoaaLd3etEmTNOv1vzIlfCgSp/view?usp=sharing" target='_blank' rel='noopener noreferrer' className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 hover:scale-105' style={{
@@ -51,7 +49,7 @@ const About = () => {
       {/* Right Side */}
       <div className='md:w-1/2 flex justify-center md:justify-end'>
       <Tilt className='w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-purple-700 rounded-full' tiltMaxAngleX={20} tiltMaxAngleY={20} perspective={1000} scale={1.05} transitionSpeed={1000} gyroscope={true}>
-      <img src={profileImage} alt="Sahitya Naik" className='w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]'/>
+      <img src={profileImage} alt="Sahitya Naik" className='w-full h-full rounded-full object-cover object-[center_10%] drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]'/>
       </Tilt>
       </div>
       </div>
