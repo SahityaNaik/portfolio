@@ -218,6 +218,5 @@ export const SkillsInfo = [
       image: portfolioLogo,
       tags: ["React JS", "Tailwind CSS", "JavaScript", "Responsive Design"],
       github: "https://github.com/SahityaNaik/portfolio",
-      webapp: "https://sahitya-naik.vercel.app/",
     },
   ];  
