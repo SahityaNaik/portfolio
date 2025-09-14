@@ -38,7 +38,7 @@ const About = () => {
         I am a Full-Stack Developer skilled in both front-end and back-end development. I specialize in the MERN stack and modern technologies to build seamless user experiences and efficient solutions. I enjoy learning new tools and solving challenges that help me grow as a developer.
         </p>
       {/* Resume Button */}
-      <a href="https://drive.google.com/file/d/1ERRL6PeUoaaLd3etEmTNOv1vzIlfCgSp/view?usp=sharing" target='_blank' rel='noopener noreferrer' className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 hover:scale-105' style={{
+      <a href="https://drive.google.com/file/d/1jWwzYxjovr7cb6o4UwvlBRQdIa07YkpL/view?usp=sharing" target='_blank' rel='noopener noreferrer' className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 hover:scale-105' style={{
         background:'linear-gradient(90deg, #8245ec, #a855f7)',
         boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
       }}>
