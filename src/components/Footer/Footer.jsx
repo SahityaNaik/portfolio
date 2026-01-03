@@ -1,6 +1,5 @@
 import React from 'react'
 import {  FaGithub, FaLinkedin, FaInstagram, } from 'react-icons/fa'
-import {RiTwitterXFill} from 'react-icons/ri'
 
 const Footer = () => {
 
@@ -38,7 +37,6 @@ const Footer = () => {
             {icon: <FaLinkedin />, link: "https://www.linkedin.com/in/sahitya-naik"},
             {icon: <FaGithub />, link: "https://github.com/SahityaNaik"},
             {icon: <FaInstagram />, link: "https://www.instagram.com/sahitya_naik1?igsh=MWxjODJuN2U5d2NmcQ=="},
-            {icon: <RiTwitterXFill />, link: "https://x.com/Sahitya_Naik?t=JMLUzm4KI__sgPNg9UPTxA&s=09"},
           ].map((item, index) =>(
             <a key={index} href={item.link} target='_blank' rel='noopener noreferrer' className='text-xl hover:text-purple-500 transition-transform transform hover:scale-110'>
               {item.icon}
@@ -48,7 +46,7 @@ const Footer = () => {
 
         {/* Copyright Text */}
         <p className='text-sm text-gray-400 mt-6'>
-          © 2025 Sahitya Naik. All rights reserved.
+          © 2026 Sahitya Naik. All rights reserved.
         </p>
       </div>
      </footer>
