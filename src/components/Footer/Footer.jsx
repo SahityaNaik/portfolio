@@ -36,7 +36,7 @@ const Footer = () => {
           {[
             {icon: <FaLinkedin />, link: "https://www.linkedin.com/in/sahitya-naik"},
             {icon: <FaGithub />, link: "https://github.com/SahityaNaik"},
-            {icon: <FaInstagram />, link: "https://www.instagram.com/sahitya_naik1?igsh=MWxjODJuN2U5d2NmcQ=="},
+            {icon: <FaInstagram />, link: "https://www.instagram.com/sahitya.naik_?igsh=MWxjODJuN2U5d2NmcQ=="},
           ].map((item, index) =>(
             <a key={index} href={item.link} target='_blank' rel='noopener noreferrer' className='text-xl hover:text-purple-500 transition-transform transform hover:scale-110'>
               {item.icon}
