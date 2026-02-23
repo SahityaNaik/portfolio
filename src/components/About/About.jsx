@@ -38,7 +38,7 @@ const About = () => {
          I am a Full-Stack Developer with hands-on experience building web applications using modern JavaScript technologies. I work across both frontend and backend, focusing on improving functionality and user experience while strengthening my development fundamentals.
         </p>
       {/* Resume Button */}
-      <a href="https://drive.google.com/file/d/1q5ePGmkDfw55HayOBwku7BEyjnVXeimE/view?usp=sharing" target='_blank' rel='noopener noreferrer' className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 hover:scale-105' style={{
+      <a href="https://drive.google.com/file/d/1yRkEeBXpBpTBlDtpMg6PYwWHOU4F5K-W/view?usp=sharing" target='_blank' rel='noopener noreferrer' className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 hover:scale-105' style={{
         background:'linear-gradient(90deg, #8245ec, #a855f7)',
         boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
       }}>
