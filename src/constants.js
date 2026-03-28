@@ -36,11 +36,11 @@ import donboscosLogo from "./assets/education_logo/donboscos_logo.png";
 
 // Project Section Logo's
 import stayeaseLogo from "./assets/work_logo/stayease.png";
-import tasksyncLogo from "./assets/work_logo/tasksync.png";
 import musicflowLogo from "./assets/work_logo/musicflow.png";
 import badmintonLogo from "./assets/work_logo/badminton.png";
 import car_crashLogo from "./assets/work_logo/car_crash.png";
 import ai_interviewLogo from "./assets/work_logo/ai_interview.png";
+import hidden_inboxLogo from "./assets/work_logo/hidden_inbox.png"
 
 
 export const SkillsInfo = [
@@ -171,6 +171,16 @@ export const projects = [
   },
   {
     id: 1,
+    title: "HiddenInbox - Anonymous Messaging App",
+    description:
+      "A sophisticated full-stack anonymous messaging platform built with TypeScript and the MERN stack. It features a secure dashboard where users can manage anonymous messages, set up public profiles, and share links effortlessly. The app highlights modern UI trends like glassmorphism and ensures type safety across the entire application.",
+    image: hidden_inboxLogo,
+    tags: ["TypeScript", "React JS", "Node.js", "MongoDB", "Tailwind CSS", "JWT Auth"],
+    github: "https://github.com/SahityaNaik/hiddeninbox",
+    webapp: "https://hiddeninbox.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Badminton Court Booking System",
     description:
       "A full-stack web application built with React, Node.js, Express, PostgreSQL, and Prisma, designed to manage badminton court bookings along with equipment and coach reservations. The system supports dynamic pricing based on configurable rules such as peak hours, weekends, and resource type, with an admin dashboard to manage courts, inventory, and availability. It focuses on implementing real-world booking workflows, backend validation, and conflict prevention to simulate a practical reservation system.",
@@ -180,7 +190,7 @@ export const projects = [
     webapp: "https://badminton-court-booking-system-two.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "AI Interview Prep App",
     description:
       "An AI-powered web application that simulates job interviews by generating questions based on a user’s resume and job description. The platform allows users to upload documents, interact with an AI interviewer, and receive automated feedback and scoring for their responses. Built with a full-stack architecture, it focuses on API integration, authentication, file handling, and delivering an interactive interview practice experience.",
@@ -190,7 +200,7 @@ export const projects = [
     webapp: "https://ai-interview-prep-app-bay.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "MusicFlow - Web Music Player",
     description:
       "A lightweight browser-based music streaming app built with HTML, CSS, and JavaScript. Inspired by Spotify, it lets users browse albums, play songs from dynamic playlists, and enjoy smooth playback with real-time controls — all within a responsive UI.",
@@ -198,16 +208,6 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "Audio API"],
     github: "https://github.com/SahityaNaik/Musicflow-Web-Player",
     webapp: "https://musicflow-web-player.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "TaskSync - Todo App",
-    description:
-      "A modern and responsive task management app built with React, Vite, and Tailwind CSS. TaskSync enables users to efficiently manage their daily to-dos with core features like adding, editing, deleting, and tracking task completion. With localStorage persistence and a sleek interface, it ensures a smooth experience across both desktop and mobile.",
-    image: tasksyncLogo,
-    tags: ["React JS", "Vite", "Tailwind CSS", "React Icons"],
-    github: "https://github.com/SahityaNaik/TaskSync-TodoList",
-    webapp: "https://tasksync-todolist.vercel.app/",
   },
   {
     id: 5,

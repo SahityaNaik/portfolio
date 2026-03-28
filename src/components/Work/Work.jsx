@@ -13,7 +13,7 @@ const Work = () => {
      setSelectedProject(null);
   }
   return (
-    <section id='work' className='py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[17vw] font-sans relative'>
+    <section id='work' className='py-24 pb-24 px-[6vw] md:px-[8vw] lg:px-[10vw] font-sans relative'>
       {/* Section Title */}
       <div className='text-center mb-16'>
         <h2 className='text-4xl font-bold text-white'>
