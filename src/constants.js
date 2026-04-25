@@ -21,6 +21,8 @@ import figmaLogo from "./assets/tech_logo/figma.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 import restapiLogo from "./assets/tech_logo/restapi.png";
 import sqlLogo from "./assets/tech_logo/sql.png";
+import nextjsLogo from "./assets/tech_logo/nextjs.png"
+import typescriptLogo from "./assets/tech_logo/typescript.png"
 
 // Experience Section Logo's
 import deLogo from "./assets/company_logo/delogo.png";
@@ -47,8 +49,8 @@ export const SkillsInfo = [
   {
     title: "Frontend",
     skills: [
-      { name: "React JS", logo: reactjsLogo },
-      { name: "JavaScript", logo: javascriptLogo },
+      { name: "React", logo: reactjsLogo },
+      { name: "Next JS", logo: nextjsLogo },
       { name: "HTML", logo: htmlLogo },
       { name: "CSS", logo: cssLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
@@ -69,6 +71,7 @@ export const SkillsInfo = [
     title: "Languages",
     skills: [
       { name: "JavaScript", logo: javascriptLogo },
+      { name: "TypeScript", logo: typescriptLogo },
       { name: "Python", logo: pythonLogo },
       { name: "SQL", logo: sqlLogo },
       { name: "Java", logo: javaLogo },
