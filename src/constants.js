@@ -98,9 +98,9 @@ export const experiences = [
     img: unlockdiscountsLogo,
     role: "Full Stack Developer Intern",
     company: "UnlockDiscounts",
-    date: "December 2025 - Present",
-    desc: "Contributing to the development and maintenance of web applications, working across both frontend and backend. Involved in feature development, debugging, API integrations, and collaborating with the team on full-stack development workflows.",
-    skills: ["React", "JavaScript", "Node.js", "Express.js", "Git"],
+    date: "December 2025 - May 2026",
+    desc: "Worked on production web applications, focusing on improving performance, SEO, and user experience. Contributed across the stack by building responsive interfaces, integrating APIs, refining backend data handling, and resolving issues in the admin dashboard while collaborating through Git workflows.",
+    skills: ["React", "Next.js", "Node.js", "Express", "Git"],
   },
   {
     id: 1,
